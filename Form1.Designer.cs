@@ -209,12 +209,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Snow;
-            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label4.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.label4.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold);
             this.label4.Location = new System.Drawing.Point(11, 21);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(65, 22);
+            this.label4.Size = new System.Drawing.Size(63, 20);
             this.label4.TabIndex = 7;
             this.label4.Text = "URL：";
             // 
@@ -271,6 +270,8 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "二维码生成器";
             this.Load += new System.EventHandler(this.Form1_Load);
