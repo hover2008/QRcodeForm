@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QRcodeForm", "QRcodeForm.csproj", "{4D3295D1-E521-4B84-8538-F95FE50FBEE1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{AAAADF6C-78CB-4714-B6ED-F55B10022202}"
+	ProjectSection(SolutionItems) = preProject
+		test-data.txt = test-data.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
